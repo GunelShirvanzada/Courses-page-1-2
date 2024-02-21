@@ -1,0 +1,595 @@
+
+/* ------------------------------------MEDIA 992-------------------------------------------- */
+
+ @media (max-width:992px) {
+
+    /* header */
+
+    #responsive_buton{
+        display: block;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    .nav_links {
+        display: none;
+    }
+
+    .nav_button button:nth-child(3) {
+        display: block;
+        padding: 0 13px;
+        margin: 0 10px;
+    }
+    /* section 1 */
+
+    .card_1 h2 {
+        font-size: 24px;
+    }
+
+    .card_2 h5 {
+        font-size: 32px;
+    }
+
+    .card_button {
+        margin-top: 30px;
+    }
+
+    /* section 2 */
+
+    .logo_main {
+        gap: 18px;
+    }
+
+    .logo_line {
+        height: 30px;
+    }
+
+    /* section 3 */
+  
+    /* section 4 */
+
+    .section_title {
+        width: 720px;
+    }
+
+    .section_title_button {
+        margin-top: 100px;
+        padding: 10px;
+    }
+
+    /*? davami */
+
+    .bnft_main {
+        width: 992px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 320px);
+        gap: 10px; 
+    }
+
+    .bnft_child i {
+        margin-left: 380px;
+    }
+
+    .bnft_child{
+        padding: 30px 20px;
+    }
+
+    #i5 {
+        margin-top: 60px;
+    }
+    
+    #i6{
+        margin-top: 50px;
+    }
+
+    /* section 5 */
+
+    .course_main{
+        grid-template-rows: 440px;
+    }
+    
+    .course_child {
+        padding: 0 14px;
+    }
+
+    .course_child img {
+        margin-top: 10px;
+    }
+
+    .course_child button {
+        margin-bottom: 20px;
+        width: 440px;
+    }
+
+
+    /* section 6 */
+
+    .section_title{
+        margin: 0;
+    }
+
+    .testimonial_info_1{
+        margin-bottom: 10px;
+    }
+
+
+    .testimonials_child p {
+        line-height: 22px;
+    }
+
+    .t_line {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /* section 7 */
+    
+    #pricing .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #pricing .section_title{
+       width: 100%;
+    }
+    #pricing .section_title_button {
+        margin-top: 0;
+    }
+
+    /* section 8 */
+
+    .pricing_main { 
+        padding: 15px;
+        gap: 10px;
+    }
+
+    .pricing_child {
+        margin-bottom: 30px;
+        padding: 20px;
+    } 
+
+    /* section 9 */
+
+    .asked_main{
+        margin-top: 0;
+    }
+
+    .asked_left {
+        width: 490px;
+    }
+
+    .asked_r_sub button i {
+        margin-left: 10px;
+    }
+
+    .asked_r_alt1 {
+        padding: 6px 15px;
+        margin: 20px 0;
+    }
+
+    /* footer */
+
+    footer { 
+        padding: 0 10px;
+        margin-top: 20px;
+    }
+
+    .footer_left{
+        margin-bottom: 24px;  
+    }
+}
+
+/* ------------------------------------MEDIA 768-------------------------------------------- */
+
+@media (max-width:768px) {
+
+    /* header */
+
+    #responsive_buton{
+        display: block;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    .nav_links {
+        display: none;
+    }
+
+    .nav_button button:nth-child(3) {
+        display: block;
+        padding: 0 13px;
+        margin: 0 10px;
+    }
+    
+    /* section 1 */
+
+    .card_1 h2 {
+        font-size: 24px;
+    }
+
+    .card_2 h5 {
+        font-size: 32px;
+    }
+
+    .card_button {
+        margin-top: 30px;
+    }
+
+    /* section 2 */
+
+    .logo_main {
+        gap: 10px;
+    }
+
+    .logo_line {
+        height: 30px;
+    }
+
+    .logo_child:nth-child(7),
+    .logo_line:nth-child(6) {
+        display: none;
+    }
+
+    /* section 3 */
+  
+    /* section 4 */
+
+    .section_title {
+        width: 620px;
+    }
+
+    .section_title_button {
+        margin-top: 100px;
+        padding: 10px;
+    }
+
+    /*? davami */
+
+    .bnft_main {
+    
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 320px);
+        gap: 10px; 
+    }
+
+    .bnft_child i {
+        margin-left: 280px;
+    }
+
+    .bnft_child{
+        width: 350px;
+        padding: 30px 20px;
+    }
+
+    #i5 {
+        margin-top: 30px;
+    }
+    
+    #i6{
+        margin-top: 16px;
+    }
+
+    /* section 5 */
+
+    .course_main{
+        grid-template-rows: 440px;
+    }
+    
+    .course_child {
+        padding: 0 14px;
+        width: 354px;   
+    }
+
+    .course_child button {
+        margin-bottom: 20px;
+        width: 320px;
+    }
+
+    /* section 6 */
+
+    .section_title{
+        margin: 0;
+    }
+
+    .testimonial_info_1{
+        margin-bottom: 10px;
+    }
+
+    .testimonials_child p {
+        line-height: 22px;
+    }
+
+    .t_line {
+        width: 100%;
+        margin-top: 2px;
+    }
+
+    /* section 7 */
+    
+    #pricing .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #pricing .section_title{
+       width: 100%;
+    }
+    #pricing .section_title_button {
+        margin-top: 0;
+    }
+
+    /* section 8 */
+
+    .pricing_main { 
+        padding: 15px;
+        gap: 10px;
+    }
+
+    .pricing_child {
+        margin-bottom: 20px;
+        padding: 10px;
+    } 
+
+    .pricing_items i {
+        margin-right: 15px;
+    }
+
+    /* section 9 */
+
+    .asked_main{
+        padding: 60px 20px;
+    }
+
+    .asked_left {
+        width: 400px;
+    }
+
+    .asked_left h3{
+        font-size: 28px;
+    }
+
+    .asked_left button{
+        margin-top: 30px;
+    }
+
+    .asked_r_sub button{
+        padding: 10px 0;
+        font-size: 12px;
+    }
+
+    .asked_r_sub button i {
+        margin-left: 10px;
+        padding: 5px;
+    }
+
+    .asked_r_alt1 {
+        padding: 6px 15px;
+        margin: 20px 0;
+    }
+
+    /* footer */
+
+    footer { 
+    padding: 0 10px;
+    }
+
+    .footer_left{
+        margin-bottom: 24px;  
+    }
+
+    .footer_nav{
+        gap: 30px;
+    }
+}
+/* ------------------------------------MEDIA 576-------------------------------------------- */
+
+@media (max-width:576px) {
+    
+    /* header */
+
+    #responsive_buton{
+        display: block;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    .nav_links {
+        display: none;
+    }
+
+    .nav_button button:nth-child(3) {
+        display: block;
+        padding: 0 13px;
+        margin: 0 10px;
+    }
+
+    /* section 1 */
+
+    .card_1 h2 {
+        font-size: 24px;
+    }
+
+    .card_2 h5 {
+        font-size: 32px;
+    }
+
+    .card_button {
+        margin-top: 30px;
+    }
+
+    /* section 2 */
+
+    .logo_main {
+        gap: 8px;
+    }
+
+    .logo_line {
+        height: 30px;
+    }
+
+    .logo_child:nth-child(3),
+    .logo_line:nth-child(2) {
+        display: none;
+    }
+
+    .logo_child:nth-child(7),
+    .logo_line:nth-child(6) {
+        display: none;
+    }
+
+    /* section 3 */
+
+    .img_icon {
+        width: 525px;
+        height: 400px;
+    }
+
+    /* section 4 */
+
+    .section_title {
+        width: 420px;
+    }
+
+    .section_title_button {
+        margin-top: 100px;
+        padding: 10px;
+    }
+
+    /*? davami */
+
+    .bnft_main {
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bnft_child{
+        width: 100%;
+    }
+
+    .bnft_child i {
+        margin-left: 440px;
+    }
+
+    /* section 5 */
+
+    .course_main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .course_child {
+        width: 100%;
+        padding: 0 14px;
+        height: 500px;
+    }
+
+    .course_child img {
+        margin-top: 10px;
+    }
+
+    .course_child button {
+        margin-bottom: 20px;
+        width: 500px;
+    }
+
+    /* section 6 */
+
+    .testimonials_main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testimonial_info_1{
+        margin-bottom: 10px;
+    }
+
+
+    .testimonials_child p {
+        line-height: 22px;
+    }
+
+    .t_line {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /* section 7 */
+    
+    #pricing .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #pricing .section_title_button {
+        margin-top: 0;
+    }
+
+    #pricing .section_title{
+        margin: 0;
+        width: 500px;
+    }
+
+    /* section 8 */
+
+    .pricing_main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .pricing_child {
+        margin-bottom: 30px;
+        padding: 20px;
+    } 
+
+    /* section 9 */
+    
+    .asked_main {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 15px;
+    }
+
+    .asked_left {
+        width: 490px;
+    }
+
+    .asked_right {
+        width: 490px;
+        align-items: center;
+    }
+
+    .asked_r_sub button i {
+        margin-left: 10px;
+    }
+
+    .asked_r_alt1 {
+        padding: 10px 25px;
+    }
+
+    /* footer */
+
+    footer { 
+        height: 500px;
+        padding: 60px 30px;
+    }
+
+    #fff .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_left{
+        margin-bottom: 24px;  
+    }
+}
